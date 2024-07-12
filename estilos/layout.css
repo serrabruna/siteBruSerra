@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #c771d6;
+    width: 100%;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: dimgrey;
+    border-radius: 5px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    color: rgb(247, 228, 228);;
+    text-decoration: none;
+}
+
+nav ul li:last-child{
+    margin-right: 0;
+}
+
+header figure{
+    display: flex;
+    justify-content: center;
+}
+
+.principal{
+    width: 100%; 
+    margin: 0 auto;
+    display: grid; 
+    grid-template-columns: 50% 50%; 
+    grid-template-rows: 300px 300px 150px;
+    grid-template-areas:"secao artigo" 
+                         "img img2"
+                         "rodape rodape"
+                          
+}
+
+section{
+    grid-area: secao;
+    font-size: large;
+    margin: 25px;
+    padding: auto;
+}
+
+article{
+    grid-area: artigo;
+    font-size: large;
+    margin: 25px;
+    padding: auto;
+}
+
+#img1{
+    grid-area: img;
+    font-size: large;
+    font-weight: bold;
+}
+
+#img2{
+    grid-area: img2;
+    font-size: large;
+    font-weight: bold;
+}
+
+.imagem{
+    width: 400px;
+    height: 350px;
+}
+
+footer{
+    grid-area: rodape;
+    background-color: #c771d6;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    padding: auto;
+}

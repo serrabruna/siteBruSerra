@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #c771d6;
+    width: 100%;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: dimgrey;
+    border-radius: 5px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    color: rgb(247, 228, 228);;
+    text-decoration: none;
+}
+
+nav ul li:last-child{
+    margin-right: 0;
+}
+
+header figure{
+    display: flex;
+    justify-content: center;
+}
+
+#formulario{
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    border: 2px solid rgb(46, 44, 44);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select{
+    width: 100%;
+    margin: 6px 0;  
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    background-color:#c771d6;
+    color:#ccc;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 20px;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+}
+
+#secao1{
+    display: flex;
+    align-items: flex-start;
+}
+
+#secao2{
+    display: flex;
+    align-items: flex-start;
+}
+
+footer{
+    background-color: #c771d6;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    padding: auto;
+}

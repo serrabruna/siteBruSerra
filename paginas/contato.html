@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="short icon" href="../imagens/logo_Mcb_icon.ico">
+    <link rel="stylesheet" href="../estilos/formulario.css">
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="../imagens/logo.png" alt="Logo do site">
+        </figure>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Página Inicial</a></li>
+                <li><a href="https://www.umusicstore.com/">Universal Music</a></li>
+                <li><a href="https://www.sonymusic.com.br/">Sony Music</a></li>
+                <li><a href="https://www.rcarecords.com/">RCA Records</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="formulario">
+            <h2>Peça seu Álbum!</h2>
+            <form action="#" method="post">
+
+               <section id="secao1">
+                    <label for="nome"></label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required>
+
+                    <label for="sobrenome"></label>
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required>
+                </section>
+
+                <section id="secao2">
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+
+                    <label for="telefone"></label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="Telefone" required>
+                </section>
+
+                <label for="endereco"></label>
+                <input type="text" name="endereco" id="endereco" placeholder="Endereço" required>
+
+                <label for="titulo"></label>
+                <textarea name="titulo" id="titulo" cols="30" rows="10" placeholder="Digite o título do álbum" required></textarea>
+
+                <section id="button">
+                    <input type="submit" value="Enviar">
+                </section>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Bruna Serra, 2024</p>
+    </footer>
+</body>
+</html>
